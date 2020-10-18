@@ -2,8 +2,8 @@
 
 namespace codicastudio\csp\Exceptions;
 
-use Exception;
 use codicastudio\csp\Policies\Policy;
+use Exception;
 
 class InvalidcspPolicy extends Exception
 {

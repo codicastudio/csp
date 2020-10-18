@@ -2,8 +2,6 @@
 
 namespace codicastudio\csp\Tests;
 
-use Illuminate\Contracts\Http\Kernel;
-use Illuminate\Support\Facades\Route;
 use codicastudio\csp\AddcspHeaders;
 use codicastudio\csp\Directive;
 use codicastudio\csp\Exceptions\InvalidcspPolicy;
@@ -13,6 +11,8 @@ use codicastudio\csp\Policies\Basic;
 use codicastudio\csp\Policies\Policy;
 use codicastudio\csp\Scheme;
 use codicastudio\csp\Value;
+use Illuminate\Contracts\Http\Kernel;
+use Illuminate\Support\Facades\Route;
 use Symfony\Component\HttpFoundation\HeaderBag;
 
 class AddcspHeadersTest extends TestCase

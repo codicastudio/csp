@@ -2,15 +2,15 @@
 
 namespace codicastudio\csp\Policies;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Arr;
-use Illuminate\Support\Str;
-use ReflectionClass;
 use codicastudio\csp\Directive;
 use codicastudio\csp\Exceptions\InvalidDirective;
 use codicastudio\csp\Exceptions\InvalidValueSet;
 use codicastudio\csp\Keyword;
 use codicastudio\csp\Value;
+use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Str;
+use ReflectionClass;
 use Symfony\Component\HttpFoundation\Response;
 
 abstract class Policy

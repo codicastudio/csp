@@ -2,8 +2,8 @@
 
 namespace codicastudio\csp;
 
-use Illuminate\Support\ServiceProvider;
 use codicastudio\csp\Nonce\NonceGenerator;
+use Illuminate\Support\ServiceProvider;
 
 class cspServiceProvider extends ServiceProvider
 {
