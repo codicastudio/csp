@@ -1,0 +1,18 @@
+<?php
+
+namespace codicastudio\csp\Tests;
+
+class NonceTest extends TestCase
+{
+    /** @test */
+    public function calling_the_nonce_function_will_generate_the_same_result()
+    {
+        $nonce = csp_nonce();
+
+        $this->assertEquals(strlen($nonce), 32);
+
+        foreach (range(1, 5) as $i) {
+            $this->assertEquals($nonce, csp_nonce());
+        }
+    }
+}
