@@ -15,7 +15,6 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4",
-
         "illuminate/http": "^8.0",
         "illuminate/support": "^8.0"
     },
