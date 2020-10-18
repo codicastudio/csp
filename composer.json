@@ -15,7 +15,7 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.4",
-        "codicastudio/codebase": "^1.0",
+
         "illuminate/http": "^8.0",
         "illuminate/support": "^8.0"
     },
