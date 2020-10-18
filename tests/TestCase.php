@@ -2,8 +2,8 @@
 
 namespace codicastudio\csp\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use codicastudio\csp\cspServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra
 {
